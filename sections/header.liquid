@@ -4,7 +4,7 @@
   assign order = 'logo,menu'
 
   if shop.customer_accounts_enabled
-    assign order = 'logo,menu'
+    assign order = 'logo,menu,actions'
   endif
 
   assign rows = 'top,bottom' | split: ','
