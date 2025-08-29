@@ -50,7 +50,7 @@
       },
       "settings": {
         "logo_position": "left",
-        "menu_position": "right",
+        "menu_position": "center",
         "menu_row": "top",
         "show_search": true,
         "search_position": "right",
@@ -80,5 +80,7 @@
       }
     }
   },
-  "order": ["header_section"]
+  "order": [
+    "header_section"
+  ]
 }
